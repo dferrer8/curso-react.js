@@ -1,0 +1,26 @@
+{
+  "name": "curso-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "reveal-md": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "reveal-md --theme white --css style.css ./index.md",
+    "config": "reveal-md --css style.css ./configuracion-inicial.md",
+    "web": "reveal-md index.md --static --static-dirs=img",
+    "print": "reveal-md --theme white index.md --print index.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/curso-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanda99/curso-react/issues"
+  },
+  "homepage": "https://github.com/juanda99/curso-react#readme"
+}
